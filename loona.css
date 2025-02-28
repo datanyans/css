@@ -1,4 +1,9 @@
 body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;background-size: 100%;font-family: Raleway;color: black;}
 
+.topbar {background: rgba(126,100,86,0.8);border: 1px solid black;border-top: none;color: black;}
+.navbar {background: rgba(126,100,86,0.8);border-bottom: 2px solid black;font-family: Julius Sans One;}
+.navbar li a {color: black !important;}
+.navbar li a:hover {background: rgba(144,90,93,0.8) !important;}
+
 .container.main {background: rgba(154, 205, 208,0.7);border: 1px solid black;box-shadow: none;}
 .col-md-9 {background: none;}
