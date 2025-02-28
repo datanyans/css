@@ -14,5 +14,46 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 .breadcrumb {background: rgba(199, 235, 222);}
 .breadcrumb .active {color: rgba(102, 142, 150);}
 
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.box1 {
+	float: left;
+	background: #D4D4D4;
+	color: #000000;
+	padding: 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 10px;
+	margin-bottom: 1px;
+	height: 150px;
+	width: 250px;
+	overflow: hidden;
+}
+.box1:hover {
+	overflow-y: auto;
+}
+.box2 {
+	float: left;
+	background: #D4D4D4;
+	color: #000000;
+	padding: 15px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 10px;
+	margin-bottom: 1px;
+	height: 150px;
+	width: 450px;
+	overflow: hidden;
+}
+.box2:hover {
+	overflow-y: auto;
+}
+
 h1 {color: rgba(40, 55, 105);font-family: "Baloo Bhaijaan 2", serif;font-weight: 700;font-size: 48px;}
 h3 {color: rgba(40, 55, 105) !important;font-family: "Baloo Bhaijaan 2", serif;font-weight: 600;font-size: 24px !important;}
