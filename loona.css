@@ -3,16 +3,16 @@
 
 body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;background-size: 100%;font-family: Roboto;color: rgba(40, 55, 105);}
 
-.topbar {background: rgba(70, 126, 156,0.8);}
-.navbar {background: rgba(70, 126, 156,0.8);font-family: Roboto;}
+.topbar {background: rgba(70, 126, 156,0.7);}
+.navbar {background: rgba(70, 126, 156,0.7);font-family: Roboto;}
 .navbar li a {color: white !important;}
-.navbar li a:hover {background: rgba(39, 75, 122,0.8) !important;}
+.navbar li a:hover {background: rgba(39, 75, 122,0.7) !important;}
 
 .container.main {background: rgba(154, 205, 208,0.7);box-shadow: none;}
 .col-md-9 {background: none;}
 
-.breadcrumb {background: rgba(199, 235, 222);}
-.breadcrumb .active {color: rgba(102, 142, 150);}
+.breadcrumb {background: rgba(199, 235, 222,0.7);}
+.breadcrumb .active {color: rgba(102, 142, 150,0.7);}
 
 .boxcontainer {
 	background: none;
@@ -24,10 +24,10 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 
 .box1 {
 	float: left;
-	background: #D4D4D4;
+	background: none;
 	color: #000000;
 	padding: 15px;
-	border: 1px solid #000;
+	border: 1px solid white;
 	border-radius: 10px;
 	margin: 10px;
 	margin-bottom: 1px;
@@ -40,10 +40,10 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 }
 .box2 {
 	float: left;
-	background: #D4D4D4;
+	background: none;
 	color: #000000;
 	padding: 15px;
-	border: 1px solid #000;
+	border: 1px solid white;
 	border-radius: 10px;
 	margin: 10px;
 	margin-bottom: 1px;
@@ -54,6 +54,13 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 .box2:hover {
 	overflow-y: auto;
 }
+
+.panel {background: rgba(199, 235, 222,0.7) !important;border: none !important;box-shadow: none !important;}
+.progress {background: white;}
+.progress-div {color: rgba(40, 55, 105)}
+.progress-bar {background: #568aa3;}
+.chat_light {background: white;text-align: center;}
+.chat_dark {background: rgba(199, 235, 222,0.7);}
 
 h1 {color: rgba(40, 55, 105);font-family: "Baloo Bhaijaan 2", serif;font-weight: 700;font-size: 48px;}
 h3 {color: rgba(40, 55, 105) !important;font-family: "Baloo Bhaijaan 2", serif;font-weight: 600;font-size: 24px !important;}
