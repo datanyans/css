@@ -1,9 +1,16 @@
-body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;background-size: 100%;font-family: Arial;color: black;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;background-size: 100%;font-family: Roboto;color: black;}
 
 .topbar {background: rgba(70, 126, 156,0.8);}
-.navbar {background: rgba(70, 126, 156,0.8);font-family: Arial;}
+.navbar {background: rgba(70, 126, 156,0.8);font-family: Roboto;}
 .navbar li a {color: black !important;}
 .navbar li a:hover {background: rgba(39, 75, 122,0.8) !important;}
 
 .container.main {background: rgba(154, 205, 208,0.7);box-shadow: none;}
 .col-md-9 {background: none;}
+
+h1 {color: rgba(40, 55, 105);font-family: "Baloo Bhaijaan 2", serif;font-weight: 700;font-size: 48px;}
+
+h3 {color: rgba(40, 55, 105) !important;font-family: "Baloo Bhaijaan 2", serif;font-weight: 600;font-size: 24px !important;}
