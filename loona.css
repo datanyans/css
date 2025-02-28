@@ -1,9 +1,9 @@
-body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;background-size: 100%;font-family: Raleway;color: black;}
+body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;background-size: 100%;font-family: Arial;color: black;}
 
-.topbar {background: rgba(70, 126, 156,0.8);border: 1px solid black;border-top: none;color: black;}
-.navbar {background: rgba(70, 126, 156,0.8);border-bottom: 2px solid black;font-family: Arial;}
+.topbar {background: rgba(70, 126, 156,0.8);}
+.navbar {background: rgba(70, 126, 156,0.8);font-family: Arial;}
 .navbar li a {color: black !important;}
 .navbar li a:hover {background: rgba(39, 75, 122,0.8) !important;}
 
-.container.main {background: rgba(154, 205, 208,0.7);border: 1px solid black;box-shadow: none;}
+.container.main {background: rgba(154, 205, 208,0.7);box-shadow: none;}
 .col-md-9 {background: none;}
