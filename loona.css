@@ -24,8 +24,8 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 
 .box1 {
 	float: left;
-	background: none;
-	color: #000000;
+	background: #e9e9e9;
+	color: rgba(40, 55, 105);
 	padding: 15px;
 	border: 1px solid white;
 	border-radius: 10px;
@@ -40,8 +40,8 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 }
 .box2 {
 	float: left;
-	background: none;
-	color: #000000;
+	background: #e9e9e9;
+	color: rgba(40, 55, 105);
 	padding: 15px;
 	border: 1px solid white;
 	border-radius: 10px;
@@ -56,11 +56,18 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 }
 
 .panel {background: rgba(199, 235, 222,0.7) !important;border: none !important;box-shadow: none !important;}
-.progress {background: white;}
+.progress {background: #e9e9e9;}
 .progress-div {color: rgba(40, 55, 105)}
 .progress-bar {background: #568aa3;}
 .chat_light {background: white;text-align: center;}
 .chat_dark {background: rgba(199, 235, 222,0.7);}
 
-h1 {color: rgba(40, 55, 105);font-family: "Baloo Bhaijaan 2", serif;font-weight: 700;font-size: 48px;}
+.table {background: #e9e9e9;border: none;border-radius: 10px;border-collapse: separate;}
+.top, .bottom, th, .table .left {background: rgba(70, 126, 156,0.7) !important;color: rgba(40, 55, 105) !important;}
+.inner-table .left {background: rgba(199, 235, 222,0.7) !important;}
+.inner-table .right {background: rgba(223, 245, 239,0.7)}
+.right_odd {background: rgba(150,139,122,0.8) !important;}
+.right_cub {background: rgba(144,90,93,0.8) !important;}
+
+h1 {color: rgba(40, 55, 105);font-family: "Baloo Bhaijaan 2", serif;font-weight: 700;font-size: 48px;text-align: center;}
 h3 {color: rgba(40, 55, 105) !important;font-family: "Baloo Bhaijaan 2", serif;font-weight: 600;font-size: 24px !important;}
