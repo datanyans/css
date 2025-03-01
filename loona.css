@@ -20,6 +20,9 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 	padding: 0px;
 	display: flex;
 	text-align: left;
+	padding: 15px;
+	border: 1px #ff9edde;
+	border-radius: 10px;
 }
 
 .box1 {
