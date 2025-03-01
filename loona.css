@@ -19,7 +19,7 @@ body {background: url('https://i.imgur.com/ke7ATXi.jpeg') top center fixed;backg
 	height: auto;
 	padding: 0px;
 	display: flex;
-	justify-content: center
+	text-align: left;
 }
 
 .box1 {
