@@ -582,15 +582,15 @@ a:hover {
 	border: 5px ridge white;
 	border-radius: 10px;
 	margin: 10px;
-	height: 150px;
-	width: 70%;
+	height: 300px;
+	width: 60%;
 	overflow: auto;
         transition: 3s
 }
 
 
 .largehoverbox:hover {
-	height: 300px;
+	height: 500px;
 	width: 70%;
 }
 
