@@ -29,7 +29,7 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(136, 165, 191,0.5);
+	background: rgba(229, 236, 246,0.5);
 	border: none;
 	box-shadow: 0px 0px 10px #022859;
 	border-radius: 20px
@@ -47,7 +47,7 @@ body {
 
 
 .topbar {
-	background: rgba(2, 64, 89, 0.5);
+	background: rgba(12, 40, 64, 0.6);
 	border: none;
 	border-top: none;
 	color: #162538;
@@ -60,9 +60,10 @@ body {
 
 
 .navbar {
-	background: rgba(2, 64, 89, 0.5);
+	background: rgba(12, 40, 64, 0.6);
 	border-bottom: none;
 	color: #000000;
+text-shadow: 0px 0px 5px #162538;
 	border-radius: 20px
 }
 
@@ -79,9 +80,10 @@ body {
 
 
 .navbar li a:hover {
-	background: rgba(2, 40, 89, 0.5) !important;
+	background: none !important;
 	border-bottom: none;
 	color: white !important;
+text-shadow: 0px 0px 5px white;
 	border-radius: 0px
 }
 
@@ -90,7 +92,7 @@ body {
 
 
 .breadcrumb {
-	background: rgba(75, 131, 148, 0.5) !important;
+	background: rgba(156, 188, 217, 0.6) !important;
         border: #162538;
 	border-radius: 10px
 }
@@ -160,24 +162,6 @@ button.button, button.button:hover {
 }
 
 
-/* ALERTS (ie. "Your lionesses have returned from hunting!") */
-
-
-.alert,
-.alert-warning {
-	background: rgba(204, 250, 255, 0.7) !important;
-	border: none;
-	color: #162538;
-	border-radius: 10px !important
-}
-
-.alert-danger
-{
-	background: rgba(255, 204, 220, 0.7) !important;
-	border: none;
-	color: #162538;
-	border-radius: 10px !important
-}
 
 
 
@@ -186,6 +170,7 @@ button.button, button.button:hover {
 
 h1 {
 	color: #162538;
+text-shadow: 0px 0px 5px #162538;
 	font-size: 60px;
 	text-align: center;
         font-family: 'Baloo Bhaijaan 2'
@@ -229,17 +214,17 @@ h3 {
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(204, 250, 255, 0.7) !important;
+	background: rgba(156, 188, 217, 0.6) !important;
 	box-shadow: 0px 0px 5px #022859 !important;
 	border: none !important;
-	color: #000000 !important;
+	color: #162538 !important;
 	border-radius: 10px
 }
 
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(1, 1, 1, 0.5);
+	background: white;
 	color: #000000 !important;
 	border-radius: 5px 
 }
@@ -247,7 +232,7 @@ h3 {
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(120, 158, 191, 0.3);
 	color: #000000 !important;
 	border-radius: 0px !important
 }
@@ -255,7 +240,7 @@ h3 {
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #000000 !important
+	color: #162538 !important
 }
 
 
@@ -263,39 +248,39 @@ h3 {
 
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(120, 158, 191, 0.3) !important;
+        color: #162538 !important;
 	border: none !important
 }
 
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: white !important;
+        color: #162538 !important;
 	border: none !important
 }
 
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: rgba(156, 188, 217, 0.6) !important;
+        color: #162538 !important;
 	border: none !important
 }
 
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #000000 !important;
+	color: #56738C !important;
 }
 
 
 div#chatMessageContainer {
-	border: none !important;
+	border: white !important;
 }
 
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(1, 1, 1, 0.5) !important;
-        color: #000000 !important;
+	background: white !important;
+        color: #162538 !important;
 	border: none !important
 }
 
@@ -309,7 +294,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 
 
 .table {
-	background: rgba(1, 1, 1, 0.5);
+	background: url('https://images.unsplash.com/photo-1740160955249-11ab45602dbf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')left center fixed;
+	box-shadow: 0px 0px 5px #022859 !important;
 	border: none !important;
 	border-collapse: separate;
 	border-radius: 20px
@@ -324,8 +310,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000 !important;
+	background: rgba(12, 40, 64, 0.6) !important;
+	color: #162538 !important;
+text-shadow: 0px 0px 5px white;
 	border-radius: 20px
 }
 
@@ -339,9 +326,9 @@ td.bottom a {
 
 
 .inner-table .left {
-	background: rgba(155, 226, 242, 0.6) !important;
+	background: rgba(156, 188, 217, 0.6) !important;
         color: #2e2a2b;
-	border-radius: 0px
+	border-radius: 10px !important
 }
 
 
@@ -372,9 +359,10 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(156, 188, 217, 0.6);
+	box-shadow: 0px 0px 5px #022859 !important;
 	border: none !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 
@@ -394,9 +382,10 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(156, 188, 217, 0.6);
+	box-shadow: 0px 0px 5px #022859 !important;
 	border: none;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 
@@ -404,7 +393,7 @@ div.left {
 
 
 .table .left {
-	background: rgba(1, 1, 1, 0.5);
+	background: none;
         border-radius: 0px
 }
 
@@ -415,9 +404,9 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(255, 255, 255, 0.5) !important;
 	border: none !important;
-	border-radius: 0px !important;
+	border-radius: 10px !important;
 	color: #000000 !important;
 	box-shadow: none !important;
 	text-shadow: none !important
@@ -428,16 +417,16 @@ textarea {
 
 
 .item-header {
-	background: rgba(1, 1, 1, 0.5) !important;
-	color: #000000  !important;
-	border-radius: 0px !important;
+	background: rgba(255, 255, 255, 0.5) !important;
+	color: #162538 !important;
+	border-radius: 10px ;
 }
 
 
 .item {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: none !important;
 	border: none !important;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
 
 
@@ -445,12 +434,12 @@ textarea {
 
 
 div.slider.round /* Background */ {
-	background: #000000 !important
+	background: white !important
 }
 
 
 div.slider.round::before /* Circle Part */ {
-	background: #000000 !important
+	background: #162538 !important
 }
 
 
@@ -468,7 +457,7 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #ffffff !important
+	color: white !important
 }
 
 
@@ -476,7 +465,7 @@ a:visited {
 
 
 a:hover {
-	color: #ffffff !important
+	color: white !important
 }
 
 
@@ -658,15 +647,22 @@ table#player img {
 
 
 div#lion_image {
-	border-radius: 50% !important;
+border: white;
+	border-radius: 10% !important;
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px /* May need adjusting */
 }
 
+#lion_image:after {
+content:url("https://maguro.carrd.co/assets/images/gallery16/4ac176c0.gif?v=10a293e5") ;
+position:absolute;
+	left: -10px;
+	top: 2px;
+
 
 table#player img {
-	border-radius: 50% !important;
+	border-radius: 0% !important;
 	overflow: hidden
 }
 
@@ -685,12 +681,12 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('IMAGE URL') !important
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/ice_cave_en.png') !important
 }
 
 
 a[href$="CAVE ID"]>div.cave-grid>img {
-	content: url('IMAGE URL') !important
+	content: url('https://static.lioden.com/images/dynamic/backgrounds/ice_cave_en.png') !important
 }
 
 
@@ -733,5 +729,4 @@ a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
 			width: 790px;
 		}
 	}
-
 
