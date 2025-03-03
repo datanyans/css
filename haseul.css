@@ -574,24 +574,26 @@ a:hover {
 
 
 .largehoverbox {
-	float: left;
-	background: rgba(1, 1, 1, 0.5);
+	float: left !important;
+	background: url('https://images.unsplash.com/photo-1740160955249-11ab45602dbf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')left center fixed;
 	color: #000000;
+	box-shadow: 0px 0px 5px #022859;
 	padding: 10px;
-	border: none;
-	border-radius: 0px;
+	border: 5px ridge white;
+	border-radius: 10px;
 	margin: 10px;
 	height: 150px;
-	width: 90%;
+	width: 70%;
 	overflow: auto;
         transition: 3s
 }
 
 
 .largehoverbox:hover {
-	height: 150px;
-	width: 90%;
+	height: 300px;
+	width: 70%;
 }
+
 
 
 /* SCROLL BAR */
@@ -673,7 +675,7 @@ table#player img {
 
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('LOGO REPLACER URL')
+	content: url('https://file.garden/ZqkJgrmuZGkZD3eZ/logo-full-2.png')
 }
 
 
