@@ -31,7 +31,7 @@ body {
 .container.main {
 	background: rgba(136, 165, 191,0.5);
 	border: none;
-	box-shadow: 0px 0px 10px white;
+	box-shadow: 0px 0px 10px #162538;
 	border-radius: 20px
 }
 
@@ -47,10 +47,11 @@ body {
 
 
 .topbar {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(2, 64, 89, 0.5);
 	border: none;
 	border-top: none;
-	color: #000000;
+	color: #162538;
+	box-shadow: 0px 0px 10px #162538;
 	border-radius: 10px;
 }
 
@@ -59,7 +60,7 @@ body {
 
 
 .navbar {
-	background: rgba(1, 1, 1, 0.5);
+	background: rgba(2, 64, 89, 0.5);
 	border-bottom: none;
 	color: #000000;
 	border-radius: 20px
@@ -70,7 +71,7 @@ body {
 
 
 .navbar li a {
-	color: #000000 !important
+	color: #162538 !important
 }
 
 
@@ -78,9 +79,9 @@ body {
 
 
 .navbar li a:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: rgba(2, 40, 89, 0.5) !important;
 	border-bottom: none;
-	color: #000000 !important;
+	color: white !important;
 	border-radius: 0px
 }
 
@@ -89,8 +90,8 @@ body {
 
 
 .breadcrumb {
-	background: rgba(1, 1, 1, 0.5) !important;
-        border: none;
+	background: rgba(75, 131, 148, 0.5) !important;
+        border: #162538;
 	border-radius: 10px
 }
 
@@ -99,7 +100,7 @@ body {
 
 
 .breadcrumb .active {
-	color: #000000
+	color: #162538
 }
 
 
@@ -108,7 +109,7 @@ body {
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #000000;
+        color: #162538;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -140,10 +141,10 @@ body {
 
 
 input.floatright, input.floatright:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: none !important;
         border: none !important;
 	border-radius: 10px;
-	color: #000000 !important;    
+	color: white !important;    
 }
 
 
@@ -164,12 +165,20 @@ button.button, button.button:hover {
 
 .alert,
 .alert-warning,
-.alert-danger {
-	background: rgba(1, 1, 1, 0.5) !important;
+{
+	background: rgba(255, 204, 220, 0.7) !important;
 	border: none;
 	color: #000000;
-	border-radius: 0px !important
+	border-radius: 10px !important
 }
+
+.alert-danger {
+	background: rgba(255, 204, 220, 0.7) !important;
+	border: none;
+	color: #000000;
+	border-radius: 10px !important
+}
+
 
 
 /* BIGGEST HEADER ("___"'s DEN) */
@@ -722,3 +731,4 @@ a[href$="unsorted.php?id=PLAYER ID"]>div.cave-grid>img /* Unsorted */ {
 			width: 790px;
 		}
 	}
+
