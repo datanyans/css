@@ -676,7 +676,7 @@ table#player img {
 
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://file.garden/ZqkJgrmuZGkZD3eZ/logo-full-2.png')
+	content: url('https://file.garden/ZqkJgrmuZGkZD3eZ/logo-full-2.png') !important
 }
 
 
